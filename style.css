@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: wheat;
+}
+
+#main {
+    margin: auto;
+    background-color: blanchedalmond;
+    border: 10px solid #238a4a79;
+    border-radius: 20px;
+}
+
+h3 {
+    padding: 50px;
+}
+
+.description {
+    padding: 20px;
+}
+
+ul {
+    padding: 50px 100px;
+}
+
+a {
+    color: green;
+}
+
+a:visited {
+    color: rgb(5, 82, 9);
+}
