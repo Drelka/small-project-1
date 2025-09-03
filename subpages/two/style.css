@@ -1,3 +1,11 @@
+/*
+
+nav - flex
+galery - grid
+rest - mix of
+
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -14,25 +22,59 @@ html {
 body {
     width: 100%;
     height: 100%;
-    border: 10px solid #7c2f78;
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
 }
 
 header {
     height: 150px;
+    display: flex;
+}
+
+header div {
+    display: flex;
+}
+
+#header-logo {
+    width: 300px;
+}
+
+#header-mid {
+    flex-grow: 1;
+}
+
+#account {
+    width: 140px;
+    flex-direction: column;
+    text-align: center;
+}
+
+#account > button {
+    flex: 1;
 }
 
 #main {
-    width: 100%;
+    width: 80%;
     min-height: 500px;
     flex-grow: 1;
+    align-self: center;
     display: flex;
 }
 
 nav {
     width: 300px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
 }
 
 #main-body {
@@ -51,15 +93,25 @@ footer {
     display: flex;
 }
 
+footer div {
+    display: flex;
+}
+
 #footer-left {
-    width: 20%;
+    width: 35%;
 }
 
 #footer-mid {
-    width: 60%;
+    width: 30%;
+}
+
+footer > div > div {
     flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 #footer-right {
-    width: 20%;
+    width: 35%;
 }
