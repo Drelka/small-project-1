@@ -57,9 +57,9 @@ footer {
 
 #footer-mid {
     width: 60%;
-    flex-grow: 3;
+    flex-grow: 1;
 }
 
 #footer-right {
-
+    width: 20%;
 }
